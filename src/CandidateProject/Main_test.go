@@ -9,6 +9,17 @@ Note: Govatar library must be installed on local PC for this to work!
 This file contains the test units and benchmarks for the wrappers defined
 in Main.go.
 
+Command lines for executing tests and benchmarks
+
+Run unit tests (verbose)
+  go test -v CandidateProject
+
+Run unit tests and calc code coverage and put result to file results.txt
+  go test -v CandidateProject -cover > results.txt
+
+Run benchmarks and append results to results.txt
+  go test CandidateProject -bench="." >> results.txt
+
 */
 
 package main
