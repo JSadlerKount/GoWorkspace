@@ -1,2 +1,3 @@
 src/github.com/*
 pkg/windows_amd64/github.com/*
+!*.exe
